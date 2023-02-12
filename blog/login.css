@@ -1,0 +1,67 @@
+.loginbox
+{
+    height: 39vh;
+    width: 30ch;
+    backdrop-filter: blur(3px);
+    place-items: center;
+    margin-top: 2vh;
+    display: flexbox;
+    border-radius: 5px;
+    border: groove;
+    
+}
+.signbox{
+    height: 58vh;
+    width: 30ch;
+    backdrop-filter: blur(3px);
+    place-items: center;
+    margin-top: 2vh;
+    display: flexbox;
+    border-radius: 5px;
+    border: groove;
+    
+}
+.login{
+    place-items: center;
+    margin-top: 12vh;
+    width: 35ch;
+    font-weight: lighter;
+}
+.sign{
+    place-items: center;
+    margin-top: 8vh;
+    width: 35ch;
+    font-weight: lighter;
+}
+.newuser{
+    margin-top: 2vh;
+    place-items: center;
+    height: 6vh;
+    width: 30ch;
+    border-radius: 5px;
+    border: groove;
+    padding: 5px 5px;
+    backdrop-filter: blur(3px);
+}
+body {
+    font-family: jost;
+    font-size: 62.5%;
+    place-content: center;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: 100% 100%;
+}
+input{
+    border-radius: 10px;
+    border: groove;
+    font-family: inherit;
+    font-size: inherit;
+    
+}
+.loginbtn{
+    border: 0;
+    border-radius: 10px;
+    width: 21.8ch;
+    height: 4.5vh;
+    background-color: rgb(133, 133, 255);
+}
